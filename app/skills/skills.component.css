@@ -1,0 +1,11 @@
+h1{
+    padding: 15px 0px;
+  }
+  .progress {
+    background-color: darkgray;
+    border-radius: 0px;
+    height: 5px;
+  }
+  .progress-bar {
+    background-color: black;
+  }

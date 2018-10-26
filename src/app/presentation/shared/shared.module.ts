@@ -7,6 +7,9 @@ import { TopNavigationComponent } from './top-navigation/top-navigation.componen
   imports: [
     CommonModule
   ],
-  declarations: [TopNavigationComponent]
+  declarations: [TopNavigationComponent],
+  exports: [
+    TopNavigationComponent
+  ]
 })
 export class SharedModule { }

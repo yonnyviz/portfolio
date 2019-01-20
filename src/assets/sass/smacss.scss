@@ -1,3 +1,7 @@
 /* SMACSS Architecture
  * Table of contents:
  * it will appear in the CSS output. */
+
+ @import './base/_base';
+ @import './module/_base';
+ @import './layout/_base';

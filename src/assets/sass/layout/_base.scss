@@ -1,4 +1,3 @@
-
 /*
 * Layout Rules:
 * Divide page into sections, holds modules together. 
@@ -9,4 +8,19 @@
 * 
 * */
 
-@import "./_header"
+#header {
+    @include layoutFlex();
+    @include directionFlex(row);
+    @include justifyContent(space-between);
+
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#main {
+    @include layoutFlex();
+    @include directionFlex(row);
+
+    border: 1px solid black;
+    padding: 10px;
+}

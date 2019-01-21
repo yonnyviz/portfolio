@@ -4,7 +4,11 @@ import { NgModule } from '@angular/core';
 import { IndexComponent } from './index/index.component';
 
 const routes: Routes = [
-    { path: '', component: IndexComponent }
+    { path: '', component: IndexComponent, 
+        children: [
+            { path: '', loadChildren: 'src/app/presentation/home/home.module#HomeModule'}
+        ] 
+    }
 ];
 
 @NgModule({

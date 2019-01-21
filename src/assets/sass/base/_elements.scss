@@ -1,3 +1,50 @@
+body {
+    font-family: RobotoSlab;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arimo;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.67em;
+  }
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 0.83em;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-bottom: 1em;
+}
+
+h4 { 
+    display: block;
+    font-size: 1em;
+    margin-bottom: 1.33em;
+}
+
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-bottom: 1.67em;
+}
+
+h6 { 
+    display: block;
+    font-size: .67em;
+    margin-bottom: 2.33em;
+}
+
 a {
     color: #039;
 }

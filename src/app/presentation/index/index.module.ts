@@ -6,11 +6,13 @@ import { IndexRoutingModule } from './index-routing.module';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { IndexComponent } from './index/index.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    IndexRoutingModule
+    IndexRoutingModule,
+    SharedModule
   ],
   declarations: [
     HeaderComponent, 

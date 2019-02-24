@@ -1,0 +1,16 @@
+.top-navigation {
+    @include layoutFlex();
+    @include alignItems(center);
+    height: 100%;
+    ul {
+        @include layoutFlex();
+        @include directionFlex(row);
+        li {
+            margin: 0px 12px;
+        }
+        a {
+            font-family: $primary-font;
+            font-weight: 300;
+        }
+    }
+}

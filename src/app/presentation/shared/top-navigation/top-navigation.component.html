@@ -1,3 +1,5 @@
-<p>
-  top-navigation works!
-</p>
+<div class="top-navigation">
+  <ul>
+    <li *ngFor="let item of navigation"><a href="{{item.path}}">{{item.name}}</a></li>
+  </ul>
+</div>

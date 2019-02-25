@@ -16,7 +16,6 @@ $main-margin: 10px 10%;
     @include directionFlex(row);
     @include justifyContent(space-between);
 
-    border: 1px solid black;
     padding: $main-margin;
 }
 
@@ -24,6 +23,5 @@ $main-margin: 10px 10%;
     @include layoutFlex();
     @include directionFlex(row);
 
-    border: 1px solid black;
-    padding: $main-margin;
+    padding: 50px 10%;
 }

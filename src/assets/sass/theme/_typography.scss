@@ -12,7 +12,7 @@
     font-family: 'Arimo';
     src: url('src/assets/fonts/Arimo/Arimo-Bold.ttf') format('truetype');
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
   }
 
 @font-face {
@@ -36,4 +36,4 @@
     font-style: normal;
 }
 
-$primary-font:    RobotoSlab;
+$primary-font:    Arimo;

@@ -15,4 +15,16 @@
 *
 * */
 
-@import '_top-navigation'
+@import '_top-navigation';
+
+.logo{
+    font-family: $primary-font;
+    &--name{
+        font-size: 25px;
+        font-weight: 300;
+    }
+    &--lastname{
+        font-size: 25px;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,13 @@
+// Main colors
+$main-white: #f9f5ef;
+$main-red: #fd6574;
+$main-dark-blue: #4b5f7b;
+
+// Background colors
+$body-bg:    $main-white;
+$header-bg:    $main-red;
+
+#header {
+    background-color: $main-dark-blue;
+    color: $main-white;
+}

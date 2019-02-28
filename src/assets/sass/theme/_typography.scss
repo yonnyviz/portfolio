@@ -9,31 +9,36 @@
 //   }
 
 @font-face {
-    font-family: 'Arimo';
-    src: url('assets/fonts/Arimo/Arimo-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: bold;
-  }
-
-@font-face {
-    font-family: 'Arimo';
-    src: url('assets/fonts/Arimo/Arimo-Italic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
-  }
-
-@font-face {
-    font-family: 'RobotoSlab';
-    src: url('assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-
-@font-face {
-    font-family: 'RobotoSlab';
-    src: url('assets/fonts/Roboto_Slab/RobotoSlab-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Arimo";
+  src: url("assets/fonts/Arimo/Arimo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
 }
 
-$primary-font:    Arimo;
+@font-face {
+  font-family: "Arimo";
+  src: url("assets/fonts/Arimo/Arimo-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("assets/fonts/Roboto_Slab/RobotoSlab-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+// Font Variables
+
+$body-primary-font: Arimo;
+
+$headings-title-font: RobotoSlab;
+$headings-subtitle-font: Arimo;

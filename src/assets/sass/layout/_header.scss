@@ -1,0 +1,9 @@
+#header {
+  @include layoutFlex();
+  @include directionFlex(row);
+  @include justifyContent(space-between);
+
+  padding: $main-layout-padding;
+  background-color: $header-bg-color;
+  color: $header-font-color;
+}

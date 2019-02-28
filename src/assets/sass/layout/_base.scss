@@ -2,26 +2,18 @@
 * Layout Rules:
 * Divide page into sections, holds modules together. 
 * Mayor layouts tradionally uses ID selectors. 
-* 
+*
 * Table of contents:
-* - 
-* 
+* - Styles of global elements.
+* - header.
+* - main.
+* - content.
+* - footer.
 * */
 
-/* Margin Variables */
-$main-margin: 10px 10%;
+/* Layout Variables */
+$main-layout-padding: 10px 10%;
 
-#header {
-    @include layoutFlex();
-    @include directionFlex(row);
-    @include justifyContent(space-between);
-
-    padding: $main-margin;
-}
-
-#main {
-    @include layoutFlex();
-    @include directionFlex(row);
-
-    padding: 50px 10%;
-}
+/* Imports */
+@import "./_header";
+@import "./_main";

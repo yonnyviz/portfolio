@@ -1,0 +1,6 @@
+#main {
+  @include layoutFlex();
+  @include directionFlex(row);
+
+  padding: $main-layout-padding;
+}

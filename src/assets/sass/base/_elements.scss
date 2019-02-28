@@ -1,5 +1,5 @@
 body {
-    font-family: RobotoSlab;
+    font-family: $body-primary-font;
     font-weight: 400;
     font-style: normal;
     background-color: $body-bg;
@@ -8,66 +8,49 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
     margin-right: 0;
-    color: $main-dark-blue;
+    color: $headings-main-color;
+    margin-bottom: 0.3em;
 }
 
 h1 { 
-    font-family: Arimo;
-    font-weight: 700;
+    color: $headings-feature-color;
+    font-family: $headings-title-font;
+    font-weight: 400;
     display: block;
     font-size: 72px;
-    margin-bottom: 0.3em;
-  }
+}
 
 h2 {
+    color: $headings-muted-color;
     font-family: Arimo;
     font-weight: 700;
     display: block;
     font-size: 52px;
-    margin-bottom: 0.83em;
 }
 
 h3 {
-    font-family: Arimo;
-    font-weight: 700;
+    font-family: $headings-title-font;
+    font-weight: 400;
     display: block;
     font-size: 32px;
-    margin-bottom: 1em;
 }
 
 h4 {
     font-family: Arimo;
-    font-weight: 700;
+    font-weight: 400;
     display: block;
     font-size: 26px;
-    margin-bottom: 1.33em;
-}
-
-h5 {
-    font-family: Arimo;
-    font-weight: 700;
-    display: block;
-    font-size: .83em;
-    margin-bottom: 1.67em;
-}
-
-h6 {
-    font-family: Arimo;
-    font-weight: 700;
-    display: block;
-    font-size: .67em;
-    margin-bottom: 2.33em;
 }
 
 a {
-    font-family: $primary-font;
+    font-family: $body-primary-font;
     font-weight: 300;
     text-decoration: none;
     color: $main-white;
 }
 
 a:hover {
-    font-family: $primary-font;
+    font-family: $body-primary-font;
     font-weight: 300;
     text-decoration: none;
     color: $main-white;

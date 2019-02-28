@@ -1,4 +1,3 @@
-
 /*
 * Modules Rules:
 * Modular, reusable parts of our design.
@@ -15,16 +14,17 @@
 *
 * */
 
-@import '_top-navigation';
+@import "_top-navigation";
+@import "_card";
 
-.logo{
-    font-family: $primary-font;
-    &--name{
-        font-size: 25px;
-        font-weight: 300;
-    }
-    &--lastname{
-        font-size: 25px;
-        font-weight: 700;
-    }
+.logo {
+  font-family: $body-primary-font;
+  &--name {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  &--lastname {
+    font-size: 25px;
+    font-weight: 700;
+  }
 }

@@ -5,6 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { SharedModule } from '../shared/shared.module';
 
 import { IndexComponent } from './index/index.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 
 @NgModule({
   imports: [
@@ -12,6 +13,6 @@ import { IndexComponent } from './index/index.component';
     CommonModule,
     HomeRoutingModule,
   ],
-  declarations: [IndexComponent]
+  declarations: [IndexComponent, JumbotronComponent]
 })
 export class HomeModule { }

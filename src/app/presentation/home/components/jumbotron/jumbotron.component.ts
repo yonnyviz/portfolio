@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-interface JumbotronContent { title: string, subtitle: string }
+interface JumbotronContent { title: string, subtitle: string, paragraph: string }
 
 @Component({
   selector: 'jumbotron',
@@ -18,8 +18,9 @@ export class JumbotronComponent implements OnInit {
 
   getContent(): JumbotronContent {
     return this.content = {
-      title: "Hola amigos.",
-      subtitle: "Bienvenidos a mi website."
+      title: "Hola!",
+      subtitle: "Mi nombre es Yonny.",
+      paragraph: "Soy programador FULL STACK y diseñador web. Me considero autodidacta por conviccion porque me gusta aprender constantemente y enfrentarme a nuevos retos."
     }
   }
 

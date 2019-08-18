@@ -6,6 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { IndexComponent } from './index/index.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,6 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
     CommonModule,
     HomeRoutingModule,
   ],
-  declarations: [IndexComponent, JumbotronComponent]
+  declarations: [IndexComponent, JumbotronComponent, NewsComponent]
 })
 export class HomeModule { }

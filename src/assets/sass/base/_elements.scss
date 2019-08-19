@@ -1,64 +1,28 @@
+
+html,
 body {
-    font-family: $body-primary-font;
-    font-weight: 400;
-    font-style: normal;
+    height: 100%;
     background-color: $body-bg;
 }
 
+body {
+    display: -ms-flexbox;
+    display: flex;
+    color: $secondary-font-color;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
 h1, h2, h3, h4, h5, h6 {
-    margin-left: 0;
-    margin-right: 0;
-    color: $headings-main-color;
-    margin-bottom: 0.1em;
+    color: $secondary-font-color;
 }
 
-h1 { 
-    color: $headings-feature-color;
-    font-family: $headings-title-font;
-    font-weight: 400;
-    display: block;
-    font-size: 72px;
-}
-
-h2 {
-    color: $headings-muted-color;
-    font-family: Arimo;
-    font-weight: 700;
-    display: block;
-    font-size: 52px;
-}
-
-h3 {
-    font-family: $headings-title-font;
-    font-weight: 400;
-    display: block;
-    font-size: 32px;
-}
-
-h4 {
-    color: $headings-muted-color;
-    font-family: Arimo;
-    font-weight: 400;
-    display: block;
-    font-size: 26px;
-}
-
-a {
-    font-family: $body-primary-font;
-    font-weight: 300;
-    text-decoration: none;
-    color: $main-white;
-}
-
+a,
+a:focus,
 a:hover {
-    font-family: $body-primary-font;
-    font-weight: 300;
-    text-decoration: none;
-    color: $main-white;
+  color: $secondary-font-color;
 }
 
-p{
-    font-family: $body-primary-font;
-    color: $main-font-color;
+p {
     font-weight: 400;
 }

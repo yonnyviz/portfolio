@@ -1,20 +1,37 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
 // Theme Colors
-$main-white: #FCFAFA;
-$main-red: #fd6574;
-$main-gray: #C8D3D5;
-$main-dark-blue: #6E8387;
-$main-dark-green: #0CCA4A;
-$main-light-green: #6CE559;
+$main-white:            #FCFAFA;
+$main-red:              #fd6574;
+$main-gray:             #C8D3D5;
+$main-dark-blue:        #6E8387;
+$main-dark-green:       #0CCA4A;
+$main-light-green:      #6CE559;
 
-// Element Colors
-$main-font-color: $main-dark-blue;
+// Color Map System
+$theme-colors: (
+  "theme-white":            $main-white,
+  "theme-red":              $main-red,
+  "theme-gray":             $main-gray,
+  "theme-dark-blue":        $main-dark-blue,
+  "theme-dark-green":       $main-dark-green,
+  "theme-light-green":      $main-light-green
+);
 
-$body-bg: $main-white;
-$body-font-color: $main-dark-blue;
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg:                   $main-dark-blue;
+$body-color:                $main-white;
 
-$header-bg-color: $main-dark-green;
-$header-font-color: $main-white;
+// Font
+//
+$main-font-color:           $main-dark-blue;
+$secondary-font-color:          $main-white;
 
-$headings-main-color: $main-dark-blue;
-$headings-feature-color: $main-dark-blue;
-$headings-muted-color: $main-gray;
+// bottons
+//
+$main-btn-color:          $main-white;

@@ -14,17 +14,4 @@
 *
 * */
 
-@import "_top-navigation";
-@import "_card";
-
-.logo {
-  font-family: $body-primary-font;
-  &--name {
-    font-size: 25px;
-    font-weight: 300;
-  }
-  &--lastname {
-    font-size: 25px;
-    font-weight: 700;
-  }
-}
+@import './_btn';

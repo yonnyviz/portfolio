@@ -17,4 +17,8 @@ $main-layout-padding: 0px 10%;
 /* Imports */
 @import "./_header";
 @import "./_main";
-@import "./_jumbotron";
+@import "./_footer";
+
+.cover-container {
+    max-width: 42em;
+  }

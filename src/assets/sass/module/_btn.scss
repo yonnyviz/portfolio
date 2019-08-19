@@ -1,0 +1,8 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: $main-btn-color;
+  border: .05rem solid $main-btn-color;
+}

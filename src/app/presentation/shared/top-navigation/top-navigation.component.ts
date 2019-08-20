@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Navigation } from 'src/app/domain/entities/navigation-entity';
+import { Navigation, Navlink } from 'src/app/domain/entities/navigation-entity';
 
 @Component({
   selector: 'top-navigation',
@@ -8,7 +8,7 @@ import { Navigation } from 'src/app/domain/entities/navigation-entity';
 })
 export class TopNavigationComponent implements OnInit {
 
-  navigation: Navigation;
+  navigation: Array<Navlink> = [];
 
   constructor(
   ) { }

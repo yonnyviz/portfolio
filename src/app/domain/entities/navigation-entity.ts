@@ -1,4 +1,4 @@
-interface Navlink {
+export interface Navlink {
     name: string,
     path: string
 }
@@ -8,15 +8,15 @@ export class Navigation {
         return [
             {
                 name: "Home",
-                path: "/home",
+                path: "/"
             },
             {
                 name: "Projects",
                 path: "/projects"
             },
             {
-                name: "About me",
-                path: "/about-me"
+                name: "Contact",
+                path: "/contact"
             },
             {
                 name: "Blog",

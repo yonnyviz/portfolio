@@ -1,8 +1,11 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
-    { path: '', loadChildren: 'src/app/presentation/index/index.module#IndexModule' }
+    {
+        path: '', loadChildren: './presentation/home/home.module#HomeModule'
+    }
 ];
 
 @NgModule({

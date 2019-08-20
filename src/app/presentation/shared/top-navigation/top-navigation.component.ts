@@ -8,7 +8,7 @@ import { Navigation, Navlink } from 'src/app/domain/entities/navigation-entity';
 })
 export class TopNavigationComponent implements OnInit {
 
-  navigation: Array<Navlink> = [];
+  navigation: Array<Navlink>;
 
   constructor(
   ) { }

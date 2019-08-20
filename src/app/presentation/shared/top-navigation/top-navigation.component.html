@@ -1,3 +1,6 @@
 <nav class="nav nav-masthead justify-content-center">
-    <a *ngFor="let item of navigation" class="nav-link" [routerLink]="[item.path]" routerLinkActive="active">{{item.name}}</a>
+    <a *ngFor="let item of navigation" class="nav-link" 
+    [routerLink]="[item.path]" 
+    routerLinkActive="active" 
+    [routerLinkActiveOptions]="{exact: true}">{{item.name}}</a>
 </nav>

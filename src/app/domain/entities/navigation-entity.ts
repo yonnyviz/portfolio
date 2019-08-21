@@ -20,7 +20,7 @@ export class Navigation {
             },
             {
                 name: "Blog",
-                path: "blog"
+                path: "\blog"
             }
         ]
     }

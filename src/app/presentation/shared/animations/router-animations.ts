@@ -5,20 +5,24 @@ import {
     animate,
     transition,
     animateChild,
-    group
+    group,
+    state
 } from '@angular/animations';
 
 export const slideInAnimation =
     trigger('routeAnimations', [
-        transition('HomePage <=> Projects', [
-            style({ position: 'relative' }),
+        transition('Projects => HomePage', [
+            style({ 
+                position: 'fixed',
+                width: '100%'
+            }),
             query(':enter, :leave', [
                 style({
                     position: 'absolute',
-                    top: 0,
+                    top: "10em",
                     left: 0,
-                    width: '100%'
-                })
+                    width: '42em'
+                }),
             ]),
             query(':enter', [
                 style({ left: '-100%' })
@@ -26,40 +30,53 @@ export const slideInAnimation =
             query(':leave', animateChild()),
             group([
                 query(':leave', [
-                    animate('300ms ease-out', style({ left: '100%' }))
+                    animate('400ms ease-in', style({ left: '120%' }))
                 ]),
                 query(':enter', [
-                    animate('300ms ease-out', style({ left: '0%' }))
+                    animate('1200ms ease-out', style({ left: '6.5%' }))
                 ])
             ]),
-            query(':enter', animateChild()),
+            query(':enter', animateChild())
+        ]),
+        // transition('HomePage => Projects', [
+        //     style({ position: 'fixed' }),
+        //     query(':enter, :leave', [
+        //         style({
+        //             position: 'absolute',
+        //             top: 0,
+        //             margin: '10em',
+        //             right: 0,
+        //             width: '100%'
+        //         }),
+        //     ]),
+        //     query(':enter', [
+        //         style({ right: '-100%' })
+        //     ]),
+        //     query(':leave', animateChild()),
+        //     group([
+        //         query(':leave', [
+        //             animate('800ms ease-out', style({ right: '100%' }))
+        //         ]),
+        //         query(':enter', [
+        //             animate('800ms ease-in', style({ right: '0%' }))
+        //         ])
+        //     ]),
+        //     query(':enter', animateChild())
+        // ])
+    ]);
+
+export const opacityAnimation =
+    trigger('routeAnimations', [
+        transition('HomePage <=> Projects', [
+            // the "in" style determines the "resting" state of the element when it is visible.
+            state('in', style({ opacity: 1 })),
+
+            query(':enter', [
+                animate('600ms ease-out', style({ opacity: 0 }))
+            ]),
+            query(':leave', [
+                animate('600ms ease-out', style({ opacity: 0 }))
+            ]),
         ])
     ]);
 
-export const slideInAnimationCopy =
-    trigger('routeAnimations', [
-        transition('HomePage <=> Projects', [
-            style({ position: 'relative' }),
-            query(':enter, :leave', [
-                style({
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%'
-                })
-            ]),
-            query(':enter', [
-                style({ left: '-100%' })
-            ]),
-            query(':leave', animateChild()),
-            group([
-                query(':leave', [
-                    animate('1200ms ease-out', style({ left: '100%' }))
-                ]),
-                query(':enter', [
-                    animate('1200ms ease-out', style({ left: '0%' }))
-                ])
-            ]),
-            query(':enter', animateChild()),
-        ])
-    ]);

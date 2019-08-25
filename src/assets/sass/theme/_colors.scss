@@ -21,6 +21,22 @@ $theme-colors: (
   "theme-light-green":      $main-light-green
 );
 
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
 // Body Color Variables
 //
 // Settings for the `<body>` element.
@@ -30,7 +46,7 @@ $body-color:                $main-white;
 // Font Color Variables
 //
 $main-font-color:           $main-dark-blue;
-$secondary-font-color:          $main-white;
+$secondary-font-color:          $gray-400;
 
 // Bottons Color Variables
 //

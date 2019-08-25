@@ -1,4 +1,4 @@
-// Variables
+// Colors Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
@@ -21,17 +21,17 @@ $theme-colors: (
   "theme-light-green":      $main-light-green
 );
 
-// Body
+// Body Color Variables
 //
 // Settings for the `<body>` element.
-$body-bg:                   $main-dark-blue;
+$body-bg:                   black;
 $body-color:                $main-white;
 
-// Font
+// Font Color Variables
 //
 $main-font-color:           $main-dark-blue;
 $secondary-font-color:          $main-white;
 
-// bottons
+// Bottons Color Variables
 //
 $main-btn-color:          $main-white;

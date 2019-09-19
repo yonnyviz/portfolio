@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 import { RouterModule } from '@angular/router';
@@ -8,15 +7,13 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule,
-    BrowserAnimationsModule
+    RouterModule
   ],
   declarations: [
     TopNavigationComponent
   ],
   exports: [
-    TopNavigationComponent,
-    BrowserAnimationsModule
+    TopNavigationComponent
   ]
 })
 export class SharedModule { }

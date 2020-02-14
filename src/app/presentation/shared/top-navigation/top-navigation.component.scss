@@ -1,3 +1,21 @@
-.nav-item{
-    transform: rotate(-90deg);
+@import "./src/styles.scss";
+
+nav {
+  position: fixed;
+  padding: 4.5em 0;
+
+  .nav-item {
+    margin: 0 0 6rem 0;
+    .nav-link {
+      color: white;
+      text-align: center;
+      font-size: 0.7rem;
+      letter-spacing: 0.1rem;
+      transform: rotate(-90deg);
+      @include media-breakpoint-down(sm) {
+        transform: none;
+        display: none;
+      }
+    }
+  }
 }

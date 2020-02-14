@@ -1,7 +1,7 @@
-<nav style="position: fixed; padding: 4.5em 0;">
+<nav>
     <ul class="nav flex-column">
         <li class="nav-item" *ngFor="let item of navigation">
-            <a class="nav-link"
+            <a class="nav-link text-uppercase"
                 [routerLink]="[item.path]"
                 routerLinkActive="active"
                 [routerLinkActiveOptions]="{exact: true}">{{item.name}}</a>

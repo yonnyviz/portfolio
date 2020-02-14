@@ -3,13 +3,23 @@
 }
 
 .brand {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  line-height: 40px;
 }
 
 .main-banner {
-  p {
-    font-size: 2.5em;
+  .title {
+    text-align: start;
+    line-height: 49px;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .post {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 1.2rem;
     font-weight: 100;
   }
 }

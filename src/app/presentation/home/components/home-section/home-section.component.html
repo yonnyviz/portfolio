@@ -1,15 +1,18 @@
 <section class="home-section">
-  <div class="row">
-    <div class="col-md-3">
-      <p class="brand">YONNY VIZCAYA</p>
-      <p class="brand-saying">Software Development</p>
+  <div class="row border-bottom">
+    <div class="col-md-6">
+      <p class="brand text-uppercase">{{homeInfo.brand}}</p>
     </div>
   </div>
-  <div class="row pt-5">
-    <div class="offset-md-5 col-md-6">
+  <div class="row pt-4">
+    <div class="col">
       <div class="main-banner">
-        <p>I build digital products and solutions that defines our future.</p>
+        <p class="title">{{homeInfo.title}}</p>
+        <p class="post">{{homeInfo.post}}</p>
       </div>
+    </div>
+    <div class="col-md-6">
+      <img src="{{imgSrc}}" class="img-fluid" alt="yonnyviz">
     </div>
   </div>
 </section>

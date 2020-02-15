@@ -1,17 +1,13 @@
 <section class="home-section">
-  <div class="row border-bottom">
-    <div class="col-md-6">
-      <p class="brand text-uppercase">{{homeInfo.brand}}</p>
-    </div>
-  </div>
-  <div class="row pt-4">
+  <section-heading [headingInfo]="homeInfo.brand"></section-heading>
+  <div class="row">
     <div class="col">
       <div class="main-banner">
         <p class="title">{{homeInfo.title}}</p>
-        <p class="post">{{homeInfo.post}}</p>
+        <span class="post" [innerHTML]="homeInfo.post"></span>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       <img src="{{imgSrc}}" class="img-fluid" alt="yonnyviz">
     </div>
   </div>

@@ -19,7 +19,8 @@ export class HomeSectionComponent implements OnInit {
     return {
       brand: "Yonny Vizcaya",
       title: "Me motiva crear soluciones digitales que impacten positivamente nuestro futuro.",
-      post: "Hola soy Yonny, desarrollador Front-End de applicaciones web, actualmente Desarrollador Front-End en Waki."
+      post: "<p>Hola mi nombre es Yonny, soy desarrollador Front-End de applicaciones web. Actualmente trabajo como FrontEnd Developer en Waki ​​un emprendimiento Fintech, desarrollando y probando software, integrando y monitoreando servicios de computación en la nube (AWS).<p>"
+
     }
   }
 

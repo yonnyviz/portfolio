@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 import { RouterModule } from '@angular/router';
+import { SectionHeadingComponent } from './section-heading/section-heading.component';
 
 @NgModule({
   imports: [
@@ -10,10 +11,12 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   declarations: [
-    TopNavigationComponent
+    TopNavigationComponent,
+    SectionHeadingComponent
   ],
   exports: [
-    TopNavigationComponent
+    TopNavigationComponent,
+    SectionHeadingComponent
   ]
 })
 export class SharedModule { }

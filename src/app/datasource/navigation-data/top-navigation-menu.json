@@ -1,15 +1,11 @@
 [
     {
-        "name": "Home",
+        "name": "Sobre mi",
         "path": "/"
     },
     {
         "name": "Projects",
         "path": "/projects"
-    },
-    {
-        "name": "About me",
-        "path": "/about-me"
     },
     {
         "name": "Blog",

@@ -7,15 +7,15 @@ export class Navigation {
     public static loadTopNavigationLinks(): Array<Navlink> {
         return [
             {
-                name: "Home",
+                name: "Conóceme",
                 path: ""
             },
             {
-                name: "Projects",
+                name: "Proyectos",
                 path: "projects"
             },
             {
-                name: "Contact",
+                name: "Contáctame",
                 path: "contact"
             },
             {

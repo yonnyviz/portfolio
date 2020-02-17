@@ -1,11 +1,22 @@
 <section id="about-me">
-  <section-heading [headingInfo]="'Habilidades'"></section-heading>
-  <div class="row">
-    <div class="col">
-      <div class="main-banner">
-        <p>I help companies to create, test and deploy
-          software
-          applications and solutions.</p>
+  <section-heading [headingInfo]="'Software Stack'"></section-heading>
+  <div class="container mb-4" *ngFor="let data of developmentStacks">
+    <div class="row">
+      <div class="col">
+        <p class="mb-0">{{data.stack_category}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let stack of data.stack_information">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="{{stack.logo}}" class="img-fluid stack-icons" alt="angular">
+          </div>
+          <div class="col">
+            <span class="stack-title">{{stack.name}}</span>
+            <p class="stack-information">{{stack.desc}}</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

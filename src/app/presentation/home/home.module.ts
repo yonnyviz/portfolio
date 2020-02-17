@@ -2,11 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HomeRoutingModule } from './home-routing.module';
-import { HomeSectionComponent } from './components/home-section/home-section.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SoftwareStackComponent } from './components/software-stack/software-stack.component';
-import { WorkSectionComponent } from './components/work-section/work-section.component';
-import { PortfolioSectionComponent } from './components/portfolio-section/portfolio-section.component';
-import { ServicesSectionComponent } from './components/services-section/services-section.component';
 import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
@@ -17,11 +14,8 @@ import { SharedModule } from '../shared/shared.module';
   ],
   declarations: [
     HomepageComponent,
-    HomeSectionComponent,
-    SoftwareStackComponent,
-    WorkSectionComponent,
-    PortfolioSectionComponent,
-    ServicesSectionComponent
+    AboutMeComponent,
+    SoftwareStackComponent
   ]
 })
 export class HomeModule { }

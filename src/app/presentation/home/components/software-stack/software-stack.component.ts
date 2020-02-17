@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'about-me-section',
-  templateUrl: './about-me-section.component.html',
-  styleUrls: ['./about-me-section.component.scss']
+  selector: 'software-stack',
+  templateUrl: './software-stack.component.html',
+  styleUrls: ['./software-stack.component.scss']
 })
-export class AboutMeSectionComponent implements OnInit {
+export class SoftwareStackComponent implements OnInit {
   developmentStacks: Array<any>;
   constructor() { }
 

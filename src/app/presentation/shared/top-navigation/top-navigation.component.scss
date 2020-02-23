@@ -16,10 +16,16 @@ nav {
       font-size: 0.7rem;
       letter-spacing: 0.1rem;
       transform: rotate(-90deg);
+      width: 99px;
+      padding: 5px;
       @include media-breakpoint-down(sm) {
         transform: none;
         display: none;
       }
+    }
+    .active {
+      @extend .nav-link;
+      background-color: #400082;
     }
   }
 }

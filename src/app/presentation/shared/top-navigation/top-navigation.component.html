@@ -1,9 +1,9 @@
 <nav>
     <ul class="nav flex-column">
         <li class="nav-item" *ngFor="let item of navigation">
-            <a class="nav-link text-uppercase"
-                [routerLink]="[item.path]"
-                routerLinkActive="active"
+            <a class="nav-link text-uppercase" 
+                routerLink="{{item.path}}" 
+                [routerLinkActive]="['active']"
                 [routerLinkActiveOptions]="{exact: true}">{{item.name}}</a>
         </li>
     </ul>

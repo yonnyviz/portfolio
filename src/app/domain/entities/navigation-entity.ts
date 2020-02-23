@@ -8,19 +8,11 @@ export class Navigation {
         return [
             {
                 name: "Conóceme",
-                path: ""
+                path: "/"
             },
             {
                 name: "Proyectos",
-                path: "projects"
-            },
-            {
-                name: "Contáctame",
-                path: "contact"
-            },
-            {
-                name: "Blog",
-                path: "\blog"
+                path: "/projects"
             }
         ]
     }

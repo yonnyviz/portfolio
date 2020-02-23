@@ -1,0 +1,17 @@
+/*
+* Modules Rules:
+* Modular, reusable parts of our design.
+* Standalone components, navigation bars, carousels, dialogs, widgets and so on.
+* Modules sit inside layout components and adapt to them.
+* Avoid using elements and ID selectors, stick only to class names. 
+* Use decendant selectors or child selectors to refert to elements inside module classes.
+* 
+* Table of contents:
+* - Elements
+* - Resets
+* - Colors
+* - Fonts
+*
+* */
+
+@import "./_btn";

@@ -25,7 +25,7 @@ export class AboutMeComponent implements OnInit {
   }
 
   private showImage() {
-    return "../../../../../assets/images/selfie2019_bw.JPG"
+    return "assets/images/selfie2019_bw.JPG"
   }
 
 }

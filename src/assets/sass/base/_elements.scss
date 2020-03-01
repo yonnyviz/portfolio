@@ -2,10 +2,15 @@ html,
 body {
   height: 100%;
   background-color: $body-bg;
+  color: $main-font-color;
+  font-family: $font-family-base;
 }
-main{
+main {
   padding: 0 4em 0 0;
   width: 100%;
+  @include media-breakpoint-down(sm) {
+    padding: 0;
+  }
 }
 
 a,

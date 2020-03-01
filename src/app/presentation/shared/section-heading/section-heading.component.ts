@@ -7,8 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SectionHeadingComponent implements OnInit {
   @Input() headingInfo: string;
+  @Input() stickyTop: boolean;
 
-  constructor() { }
+  constructor() {
+    this.stickyTop = false;
+  }
 
   ngOnInit() {
   }

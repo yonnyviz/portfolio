@@ -26,12 +26,12 @@ export class SoftwareStackComponent implements OnInit {
           {
             logo: "assets/images/bootstrap.png",
             name: "Bootstrap",
-            desc:"Bootstrap es mi libreria de estilos o sistema de diseño que uso como base, debido a la organización"
+            desc:"Bootstrap es mi libreria de estilos o sistema de diseño que uso como base para el desarrollo de aplicaciones debido a su organización de componentes, sistema de grillas y por la flexibidad al momento de crear distintas tematicas."
           },
           {
             logo: "assets/images/sass.png",
             name: "Sass",
-            desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis at maxime aliquid, officiis aperiam harum quae ipsum architecto culpa aspernatur pariatur, similique deserunt amet repudiandae nostrum. Eveniet, enim quae!"
+            desc:"Es el precompilador de estilos que uso debido a capacidad de crear variables, crear mixings el me permite crear configuraciones de diseño reusables en todo el proyecto."
           }
         ]
       },
@@ -41,17 +41,17 @@ export class SoftwareStackComponent implements OnInit {
           {
             logo: "assets/images/typescript.png",
             name: "TypeScript",
-            desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis at maxime aliquid, officiis aperiam harum quae ipsum architecto culpa aspernatur pariatur, similique deserunt amet repudiandae nostrum. Eveniet, enim quae!"
+            desc:"Typescript es un metalenguaje que precompilador de Javascript el cual uso para implementar el framework de Angular en los proyectos y tambien facilita la programación orientada a objetes en NodeJS."
           },
           {
             logo: "assets/images/python.png",
             name: "Python",
-            desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis at maxime aliquid, officiis aperiam harum quae ipsum architecto culpa aspernatur pariatur, similique deserunt amet repudiandae nostrum. Eveniet, enim quae!"
+            desc:"Mas que tod uso python para crear scripts automatizados o pequeños programas que mejoren mi productividad."
           },
           {
             logo: "assets/images/bash.png",
             name: "Bash",
-            desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis at maxime aliquid, officiis aperiam harum quae ipsum architecto culpa aspernatur pariatur, similique deserunt amet repudiandae nostrum. Eveniet, enim quae!"
+            desc:"Bash lo uso para las tareas cotidianas que implica la administración de los sistemas operativos basados en Unix."
           }
         ]
       },
@@ -61,12 +61,12 @@ export class SoftwareStackComponent implements OnInit {
           {
             logo: "assets/images/docker.png",
             name: "Docker",
-            desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis at maxime aliquid, officiis aperiam harum quae ipsum architecto culpa aspernatur pariatur, similique deserunt amet repudiandae nostrum. Eveniet, enim quae!"
+            desc:"Uso Docker para virtualizar en un contenedor las aplicaciones para facilitar la distribución de la misma y crear una arquitectura orientada a microservicios, usando Docker Swarm como orquestador de contenedores."
           },
           {
             logo: "assets/images/aws.png",
             name: "AWS",
-            desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis at maxime aliquid, officiis aperiam harum quae ipsum architecto culpa aspernatur pariatur, similique deserunt amet repudiandae nostrum. Eveniet, enim quae!"
+            desc:"Como tecnologia en la nube uso AWS por la variedad de servicios que ofrecen."
           }
         ]
       }

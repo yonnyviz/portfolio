@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { TopNavigationComponent } from './top-navigation/top-navigation.component';
 import { RouterModule } from '@angular/router';
 import { SectionHeadingComponent } from './section-heading/section-heading.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports: [
@@ -12,11 +13,13 @@ import { SectionHeadingComponent } from './section-heading/section-heading.compo
   ],
   declarations: [
     TopNavigationComponent,
-    SectionHeadingComponent
+    SectionHeadingComponent,
+    HeaderComponent
   ],
   exports: [
     TopNavigationComponent,
-    SectionHeadingComponent
+    SectionHeadingComponent,
+    HeaderComponent
   ]
 })
 export class SharedModule { }

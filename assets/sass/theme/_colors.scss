@@ -4,28 +4,28 @@
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
 // Theme Colors
-$main-white:            #FCFAFA;
-$main-red:              #fd6574;
-$main-gray:             #C8D3D5;
-$main-dark-blue:        #6E8387;
-$main-dark-green:       #0CCA4A;
-$main-light-green:      #6CE559;
+$main-white: #fcfafa;
+$main-red: #fd6574;
+$main-gray: #c8d3d5;
+$main-dark-blue: #6e8387;
+$main-dark-green: #0cca4a;
+$main-light-green: #6ce559;
 
 // Color Map System
 $theme-colors: (
-  "theme-white":            $main-white,
-  "theme-red":              $main-red,
-  "theme-gray":             $main-gray,
-  "theme-dark-blue":        $main-dark-blue,
-  "theme-dark-green":       $main-dark-green,
-  "theme-light-green":      $main-light-green
+  "theme-white": $main-white,
+  "theme-red": $main-red,
+  "theme-gray": $main-gray,
+  "theme-dark-blue": $main-dark-blue,
+  "theme-dark-green": $main-dark-green,
+  "theme-light-green": $main-light-green
 );
 
 //
 // Color system
 //
 
-$white:    #fff !default;
+$white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -35,19 +35,25 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black: #000 !default;
 
 // Body Color Variables
 //
 // Settings for the `<body>` element.
-$body-bg:                   #222222;
-$body-color:                #e4e4e4;
+$body-bg: #222222;
+$body-color: #e4e4e4;
 
 // Font Color Variables
 //
-$main-font-color:           $main-dark-blue;
-$secondary-font-color:          $gray-400;
+$main-font-color: $white;
+$secondary-font-color: $gray-400;
 
 // Bottons Color Variables
 //
-$main-btn-color:          $main-white;
+$main-btn-color: $main-white;
+
+// Bottons Color Variables
+//
+.bg-dark {
+  background-color: $body-bg !important;
+}

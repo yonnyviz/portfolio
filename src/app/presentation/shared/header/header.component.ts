@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HeaderComponent implements OnInit {
   @Input() headingInfo: string;
   @Input() stickyTop: boolean;
+  @Input() imgSrc: string;
 
   constructor() {
     this.stickyTop = false;

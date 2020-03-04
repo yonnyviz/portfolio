@@ -5,6 +5,8 @@ import { TopNavigationComponent } from './top-navigation/top-navigation.componen
 import { RouterModule } from '@angular/router';
 import { SectionHeadingComponent } from './section-heading/section-heading.component';
 import { HeaderComponent } from './header/header.component';
+import { ImageConfigService } from './services/image-config.service';
+import { CubeComponent } from './cube/cube.component';
 
 @NgModule({
   imports: [
@@ -14,12 +16,18 @@ import { HeaderComponent } from './header/header.component';
   declarations: [
     TopNavigationComponent,
     SectionHeadingComponent,
-    HeaderComponent
+    HeaderComponent,
+    CubeComponent
+  ],
+  providers: [
+    ImageConfigService
   ],
   exports: [
     TopNavigationComponent,
     SectionHeadingComponent,
-    HeaderComponent
+    HeaderComponent,
+    CubeComponent
+
   ]
 })
 export class SharedModule { }

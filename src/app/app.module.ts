@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { GoogleAnalyticsService } from './google-analytics.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    GoogleAnalyticsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { slideInAnimation, opacityAnimation } from './presentation/shared/animations/router-animations';
+import { Router, NavigationEnd } from '@angular/router';
 
+declare let gtag: Function;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,9 +10,18 @@ import { slideInAnimation, opacityAnimation } from './presentation/shared/animat
 })
 export class AppComponent {
   title = 'app';
-  
-  prepareRoute(outlet: RouterOutlet) {
-    return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+
+  constructor(public router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        gtag('config', 'UA-115044838-1',
+          {
+            'page_path': event.urlAfterRedirects
+          }
+        );
+      }
+    }
+    )
   }
 
 }
